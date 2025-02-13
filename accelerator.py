@@ -54,6 +54,7 @@ def init():
 # Then, we will update all the other particles placed by the user with the Lorentz force
 # and ensure our new position is a sequence, then return it each time.
 # 
+
 def update(frame):
     # Update the original particle (the red one)
     particle.set_data([x[frame]], [y[frame]])
@@ -73,10 +74,9 @@ def update(frame):
         velocities[i] = velocity  # Store new velocity for the particle
 
     return particle, *particles[1:]
-#
+
 # Create a new particle at the clicked position and start it moving with same velocity as red particle
 # It does this by appending the velocity of the red one. 
-# 
 def on_click(event):
     new_particle, = ax.plot([event.xdata], [event.ydata], 'bo', markersize=8)
     particles.append(new_particle)
