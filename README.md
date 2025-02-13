@@ -14,12 +14,12 @@ The simulation shows how charged particles (like protons or electrons) move in a
 
 The simulation is based on these typical values for particle motion:
 
-  - **Charge (CHARGE)**: The elementary charge (\(1.6 \times 10^{-19}\) Coulombs).
-  - **Mass (MASS)**: The mass of a proton (\(1.67 \times 10^{-27}\) kg).
-  - **Magnetic Field Strength (B_FIELD)**: \(1.2 \, \text{Tesla}\).
-  - **Voltage (VOLTAGE)**: \(1 \times 10^{6}\) Volts (or 1 Megavolt).
+  - **Charge (CHARGE)**: The elementary charge (1.6 times 10^{-19} Coulombs).
+  - **Mass (MASS)**: The mass of a proton (1.67 times 10^{-27} kg).
+  - **Magnetic Field Strength (B_FIELD)**: (1.2 Tesla).
+  - **Voltage (VOLTAGE)**: (1 times 10^{6} Volts or 1 Megavolt).
   - **Radius (RADIUS)**: The radius of the particle's circular motion, set to 1.0 meter.
-  - **Time Step (TIME_STEP)**: The time step used in the simulation, set to \(1 \times 10^{-9}\) seconds.
+  - **Time Step (TIME_STEP)**: The time step used in the simulation, set to (1 times 10^{-9} seconds).
 
 Simpler explanations for these values can be found in the comments of the code.
 
