@@ -9,7 +9,7 @@ The simulation shows how charged particles (like protons or electrons) move in a
 - A **red particle** starts moving in a circular path based on the specified physical constants (such as charge, mass, voltage, etc.).
 - The particles interact with the magnetic field, updating their positions based on the **Lorentz force**.
 
-### Physical Constants
+## Physical Constants
 
 The simulation is based on these typical values for particle motion:
 
@@ -22,7 +22,7 @@ The simulation is based on these typical values for particle motion:
 
 Simpler explanations for these values can be found in the comments of the code.
 
-### Features
+## Features
 
   - **Cyclotron Motion**: The simulation visually demonstrates how charged particles move in a circular path under the influence of a magnetic field.
   - **Real-Time Animation**: Particles move in real-time according to their physical behavior, updating their position and velocity with each frame.
