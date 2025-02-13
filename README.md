@@ -7,7 +7,7 @@ This repository contains a simulation of a particle accelerator where particles 
 The simulation shows how charged particles (like protons or electrons) move in a circular path under the influence of a magnetic field, which is a typical setup in a **cyclotron** or other types of particle accelerators.
 
 - A **red particle** starts moving in a circular path based on the specified physical constants (such as charge, mass, voltage, etc.).
-- **User Interaction**: Users can click anywhere on the plot to add additional particles. These particles will also accelerate in the same way as the red particle.
+- **User Interaction**: Users can click anywhere on the plot to add additional particles. These particles will also accelerate in the same way as the red particle. Users can expand and shrinken the diagram, then save a PNG of the active simulation.
 - The particles interact with the magnetic field, updating their positions based on the **Lorentz force**.
 
 ### Physical Constants
